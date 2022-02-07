@@ -1,0 +1,25 @@
+// GLOBALS - NO WINDOW !!!
+
+// __dirname : path to current directory.
+// __filename : file name.
+// require : function to use modules (COMMONJS).
+// module : info about current module (file).
+//process : info about env where the program is being executed.
+
+// const { readFileSync, writeFileSync } = require('fs');
+
+// const first = readFileSync('./content/first.txt', 'utf8');
+// const second = readFileSync('./content/second.txt', 'utf8');
+
+// console.log(first, second);
+
+console.log(__dirname);
+// console.log(__filename);
+// console.log(require);
+// console.log(module);
+// console.log(process);
+
+setInterval(() => {
+    console.log('Assalamu 3alaykum brothers and sisters')
+}, 1000);
+
